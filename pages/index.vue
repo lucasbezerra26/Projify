@@ -39,7 +39,7 @@
       <div
           v-for="project in sortedProjects"
           :key="project.id"
-          class="bg-light rounded-lg shadow cursor-pointer hover:shadow-md transition w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
+          class="bg-light rounded-lg shadow cursor-pointer hover:shadow-md transition w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-md xl:max-w-md"
       >
         <div class="relative  h-40 rounded-lg overflow-hidden bg-gray-100">
           <img v-if="project.coverImage" :src="project.coverImage" alt="Capa do Projeto"
