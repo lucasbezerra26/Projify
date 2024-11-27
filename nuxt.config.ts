@@ -17,5 +17,9 @@ export default defineNuxtConfig({
         "@pinia/nuxt"
     ],
 
+    app: {
+        baseURL: '/projify/',
+    },
+
     devtools: {enabled: true},
 });
