@@ -1,5 +1,4 @@
 export default defineNuxtConfig({
-    // Configuração do Vite
     ssr: false,
     nitro: {
         preset: 'static'
@@ -7,6 +6,9 @@ export default defineNuxtConfig({
     vite: {
         build: {
             target: 'esnext',
+        },
+        define: {
+            'process.env.PUBLIC_PATH': '/projify/'
         },
     },
     compatibilityDate: "2024-11-20",
@@ -19,7 +21,7 @@ export default defineNuxtConfig({
 
     app: {
         baseURL: '/projify/',
-
+        buildAssetsDir: '/projify/_nuxt/'
     },
     router: {
         options: {
