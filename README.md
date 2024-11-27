@@ -35,7 +35,7 @@ Para estilização, optei pelo **TailwindCSS**, que permite criar interfaces de 
 ### **Passos**
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/projify.git
+   git clone https://github.com/lucasbezerra26/projify.git
    cd projify
 
 
