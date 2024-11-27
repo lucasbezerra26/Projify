@@ -2,6 +2,29 @@
 
 **Projify** é um gerenciador de projetos simples, desenvolvido com foco em aplicar conceitos de desenvolvimento web modernos.
 
+## 🌐 Deploy do Projeto
+
+A aplicação foi implantada em um servidor utilizando **Docker** na infraestrutura da **DigitalOcean**. A configuração incluiu a utilização de um container Docker para execução da aplicação e está acessível na seguinte URL:
+
+> **URL de acesso:** [http://162.243.161.32/](http://162.243.161.32/)
+
+A implantação foi realizada com docker e docker-compose em um servidor, com deploy na configuração SSR (Server Side Rendering).
+
+### 🛠 Configuração do Servidor
+
+1. **Infraestrutura**:
+   - Servidor configurado na **DigitalOcean**.
+   - Sistema operacional: Ubuntu 22.04.
+   - Utilização de Docker para encapsular a aplicação.
+
+2. **Tecnologias Utilizadas**:
+   - **Nuxt.js** para desenvolvimento da aplicação.
+   - **TailwindCSS** para estilização.
+   - **LocalStorage** para armazenamento de dados no lado do cliente.
+
+3. **Execução da Aplicação**:
+   A aplicação foi configurada para ser executada diretamente no servidor, garantindo um fluxo contínuo de integração e entrega.
+
 ## 🛠 Tecnologias Utilizadas
 
 ### **Nuxt.js 3**
