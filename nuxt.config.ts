@@ -19,12 +19,7 @@ export default defineNuxtConfig({
 
     app: {
         baseURL: '/projify/',
-        buildAssetsDir: '/_nuxt/'
     },
-    // router: {
-    //     options: {
-    //         base: '/projify/',
-    //     },
-    // },
+
     devtools: {enabled: true},
 });
