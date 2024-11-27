@@ -1,11 +1,24 @@
 export default defineNuxtConfig({
-    // Vite está ativado
-    vite: {
-        build: {
-            target: 'esnext',
-        },
+  // Configuração do Vite
+  ssr: false,
+  vite: {
+    build: {
+      target: 'esnext',
     },
-    compatibilityDate: "2024-11-20",
-    modules: ["@nuxtjs/tailwindcss", "@nuxt/icon", "@pinia/nuxt"],
-    devtools: {enabled: true},
+  },
+  compatibilityDate: "2024-11-20",
+
+  target: 'static',
+
+  router: {
+    base: '/projify/',
+  },
+
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxt/icon",
+    "@pinia/nuxt"
+  ],
+
+  devtools: { enabled: true },
 });
