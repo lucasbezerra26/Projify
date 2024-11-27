@@ -10,7 +10,7 @@ A aplicação foi implantada em um servidor utilizando **Docker** na infraestrut
 
 A implantação foi realizada com docker e docker-compose em um servidor, com deploy na configuração SSR (Server Side Rendering).
 
-### 🛠 Configuração do Servidor
+### 🛠 Configuração
 
 1. **Infraestrutura**:
    - Servidor configurado na **DigitalOcean**.
@@ -21,22 +21,11 @@ A implantação foi realizada com docker e docker-compose em um servidor, com de
    - **Nuxt.js** para desenvolvimento da aplicação.
    - **TailwindCSS** para estilização.
    - **LocalStorage** para armazenamento de dados no lado do cliente.
+   - **vitest** para testes unitários.
 
 3. **Execução da Aplicação**:
    A aplicação foi configurada para ser executada diretamente no servidor, garantindo um fluxo contínuo de integração e entrega.
 
-## 🛠 Tecnologias Utilizadas
-
-### **Nuxt.js 3**
-Utilizei o **Nuxt.js** para aproveitar seus recursos avançados de desenvolvimento, como rotas automáticas, renderização no lado do servidor (SSG/SSR), e geração de sites estáticos. O uso do Nuxt garante um fluxo de trabalho otimizado e escalável.
-
-### **TypeScript**
-O projeto foi desenvolvido inteiramente com **TypeScript**, garantindo tipagem estática e ajudando a identificar possíveis erros durante o desenvolvimento, além de fornecer maior escalabilidade e organização ao código.
-
-### **TailwindCSS**
-Para estilização, optei pelo **TailwindCSS**, que permite criar interfaces de forma rápida utilizando classes utilitárias. Isso garantiu um design responsivo e visualmente consistente.
-
----
 
 ## 📦 Funcionalidades Implementadas
 
@@ -69,7 +58,11 @@ Para estilização, optei pelo **TailwindCSS**, que permite criar interfaces de 
 3. Inicie o servidor de desenvolvimento:
    ```bash
     pnpm dev
-
+   
+4. Rode os testes:
+   ```bash
+   pnpm run test:unit
+   ```
    
 ## 📂 Estrutura do Projeto
 
