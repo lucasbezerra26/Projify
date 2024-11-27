@@ -6,6 +6,6 @@ export default defineNuxtConfig({
         },
     },
     compatibilityDate: "2024-11-20",
-    modules: ["@nuxtjs/tailwindcss", "@nuxt/icon"],
+    modules: ["@nuxtjs/tailwindcss", "@nuxt/icon", "@pinia/nuxt"],
     devtools: {enabled: true},
 });
