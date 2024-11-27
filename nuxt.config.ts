@@ -1,18 +1,21 @@
 export default defineNuxtConfig({
-  // Configuração do Vite
-  ssr: false,
-  vite: {
-    build: {
-      target: 'esnext',
+    // Configuração do Vite
+    ssr: false,
+    nitro: {
+        preset: 'static'
     },
-  },
-  compatibilityDate: "2024-11-20",
+    vite: {
+        build: {
+            target: 'esnext',
+        },
+    },
+    compatibilityDate: "2024-11-20",
 
-  modules: [
-    "@nuxtjs/tailwindcss",
-    "@nuxt/icon",
-    "@pinia/nuxt"
-  ],
+    modules: [
+        "@nuxtjs/tailwindcss",
+        "@nuxt/icon",
+        "@pinia/nuxt"
+    ],
 
-  devtools: { enabled: true },
+    devtools: {enabled: true},
 });
