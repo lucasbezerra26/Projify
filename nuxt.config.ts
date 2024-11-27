@@ -8,12 +8,6 @@ export default defineNuxtConfig({
   },
   compatibilityDate: "2024-11-20",
 
-  target: 'static',
-
-  router: {
-    base: '/projify/',
-  },
-
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/icon",
