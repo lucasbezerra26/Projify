@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-    base: '/projify/',
+    // base: '/projify/',
     ssr: false,
     nitro: {
         preset: 'static'
@@ -17,9 +17,9 @@ export default defineNuxtConfig({
         "@pinia/nuxt"
     ],
 
-    app: {
-        baseURL: '/projify/',
-    },
+    // app: {
+    //     baseURL: '/projify/',
+    // },
 
     devtools: {enabled: true},
 });
