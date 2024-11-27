@@ -17,14 +17,14 @@ export default defineNuxtConfig({
         "@pinia/nuxt"
     ],
 
-    app: {
-        baseURL: '/projify/',
-        buildAssetsDir: '/projify/_nuxt/'
-    },
-    router: {
-        options: {
-            base: '/projify/',
-        },
-    },
+    // app: {
+    //     baseURL: '/projify/',
+    //     buildAssetsDir: '/projify/_nuxt/'
+    // },
+    // router: {
+    //     options: {
+    //         base: '/projify/',
+    //     },
+    // },
     devtools: {enabled: true},
 });
