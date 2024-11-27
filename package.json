@@ -15,17 +15,20 @@
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@pinia/nuxt": "^0.7.0",
     "nuxt": "^3.14.1592",
-    "vue": "latest",
-    "vue-router": "latest"
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
   },
   "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387",
   "devDependencies": {
-    "@primevue/nuxt-module": "^4.2.3",
+    "@primevue/nuxt-module": "^4.2.4",
     "@tailwindcss/forms": "^0.5.9",
-    "@types/node": "^22.9.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@types/node": "^22.10.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vitest/ui": "^2.1.6",
     "@vue/test-utils": "^2.4.6",
     "jsdom": "^25.0.1",
-    "typescript": "^5.6.3",
-    "vitest": "^2.1.5"
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.6"
   }
 }
